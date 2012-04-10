@@ -1,0 +1,3 @@
+# Fare Me
+
+A simple http API to the KayakFares gem so that Hubot can make requests.
