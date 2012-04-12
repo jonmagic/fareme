@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'rails'
 gem 'jquery-rails'
 gem 'sqlite3'
+gem 'chronic'
+gem 'kayakfares'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -13,7 +15,10 @@ end
 group :test do
   gem 'rspec-rails'
   gem 'cucumber-rails', :require => false
+  gem 'webmock'
+  gem 'vcr'
   gem 'guard-rspec'
+  gem 'pry'
 end
 
 # To use ActiveModel has_secure_password
